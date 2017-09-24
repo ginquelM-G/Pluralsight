@@ -21,4 +21,5 @@ app.listen(port, function(err, data){
 //open new cmd and write: lt --port 3000 or lt --port 3000 --subdomain cory"
 
 
-//Automation: npm start
+//Automation: 
+// npm start, npm run security-check
