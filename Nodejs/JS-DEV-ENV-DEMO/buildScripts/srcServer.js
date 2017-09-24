@@ -19,3 +19,6 @@ app.listen(port, function(err, data){
 
 //Sharing your project using localtunnel 
 //open new cmd and write: lt --port 3000 or lt --port 3000 --subdomain cory"
+
+
+//Automation: npm start
