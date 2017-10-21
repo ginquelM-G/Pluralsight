@@ -1,11 +1,15 @@
+import com.rsk.Providers
+
 /**
  * Created by Moreira on 21-10-2017.
  */
 
 
 fun main(args: Array<String>){
-    val providers = getProviders()
-    val it = providers.iterator()
+    //val providers = Providers()
+    val allProviders = Providers.getProviders()
+
+    val it = allProviders.iterator()
 
     while(it.hasNext()){
         val provider = it.next()
@@ -15,6 +19,15 @@ fun main(args: Array<String>){
     }
 }
 
-fun listProviders(){
 
+fun listProviders(){
+    val providers = getProviders()
+    val it = providers.iterator()
+
+    while(it.hasNext()){
+        val provider = it.next()
+        println(provider.name)
+
+        provider.forEach { key, value -> println("\t$key: $value")  }
+    }
 }
