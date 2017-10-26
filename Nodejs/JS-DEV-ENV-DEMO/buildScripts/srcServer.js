@@ -1,8 +1,8 @@
-var express = require('express');
+import express from 'express' //var express = require('express');
 var path = require('path');
 var open = require('open');
 
-var port =3000;
+const port =3000//var port =3000;
 var app = express();
 
 app.get("/", function(req, res){
@@ -23,3 +23,11 @@ app.listen(port, function(err, data){
 
 //Automation: 
 // npm start, npm run security-check
+
+
+// TRANSPILING:
+// A source-to-source compiler, transcompiler or transpiler is a type of compiler
+// that takes the source code of a program written in one programming language as its input and produces the equivalent source code in another programming language
+/** Transpiling is a specific term for taking source code written in one language and transforming into another language that has a similar level of abstraction 
+ * Popular Transpilers: {Babel, TypeScript, Elm}
+ */
