@@ -9,3 +9,4 @@ CREATE  TABLE Employees(
 )
 
 SELECT  * FROM Employees;
+

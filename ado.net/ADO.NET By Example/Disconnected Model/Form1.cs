@@ -44,7 +44,7 @@ namespace Disconnected_Model
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string cs = "Integrated Security = SSPI; Persist Security Info = False; Initial Catalog = ADO_by_example; Data Source = GINQUELM-E";
+            string cs = "Integrated Security = SSPI; Persist Security Info = False; Initial Catalog = ADO_by_example; Data Source = GINQUELM-E\\";
             SqlConnection con = new SqlConnection(cs);
            
             SqlDataAdapter da = new SqlDataAdapter();
