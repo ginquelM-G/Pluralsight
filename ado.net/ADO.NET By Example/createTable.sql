@@ -8,5 +8,15 @@ CREATE  TABLE Employees(
 	Hiredate DATETIME
 )
 
+
+CREATE TABLE CompanyRevenue(
+	CompanyName VARCHAR(50),
+	REVENUE MONEY
+)
+--drop table CompannyRevenue
+
 SELECT  * FROM Employees;
+SELECT * FROM CompanyRevenue;
+
+
 
