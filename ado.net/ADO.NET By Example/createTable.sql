@@ -11,12 +11,9 @@ CREATE  TABLE Employees(
 
 CREATE TABLE CompanyRevenue(
 	CompanyName VARCHAR(50),
-	REVENUE MONEY
+	revenue MONEY
 )
---drop table CompannyRevenue
+--drop table CompanyRevenue
 
 SELECT  * FROM Employees;
 SELECT * FROM CompanyRevenue;
-
-
-

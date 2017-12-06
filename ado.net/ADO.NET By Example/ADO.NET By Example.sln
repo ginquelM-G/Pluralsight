@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected Model", "Disco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios", "Exercicios\Exercicios.csproj", "{84338B39-7B5A-46B7-BA6F-CB29752D2F51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection Oriented Model", "Connection Oriented Model\Connection Oriented Model.csproj", "{5EE6DB8F-E932-4440-9007-1AE5E9471C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{84338B39-7B5A-46B7-BA6F-CB29752D2F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84338B39-7B5A-46B7-BA6F-CB29752D2F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84338B39-7B5A-46B7-BA6F-CB29752D2F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE6DB8F-E932-4440-9007-1AE5E9471C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE6DB8F-E932-4440-9007-1AE5E9471C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE6DB8F-E932-4440-9007-1AE5E9471C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE6DB8F-E932-4440-9007-1AE5E9471C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

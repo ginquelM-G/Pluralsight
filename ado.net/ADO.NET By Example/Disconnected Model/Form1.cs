@@ -59,6 +59,7 @@ namespace Disconnected_Model
             row = ds.Tables[0].NewRow();
             row["EmpNo"] = txtEmpNo.Text;
             row["Ename"] = txtEname.Text;
+
             row["Salary"] = txtSalary.Text;
             row["Hiredate"] = dtpHiredate.Value;
             ds.Tables[0].Rows.Add(row);
